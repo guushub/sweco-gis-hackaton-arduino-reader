@@ -1,0 +1,17 @@
+{
+  "name": "arduino-serialport-reader",
+  "version": "1.0.0",
+  "description": "Read arduino data from serialport",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guus Claessen",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^6.0.4",
+    "azure-iot-device": "^1.1.10",
+    "azure-iot-device-mqtt": "^1.1.10"
+  }
+}
